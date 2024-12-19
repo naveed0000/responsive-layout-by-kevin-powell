@@ -1,0 +1,29 @@
+* { 
+    box-sizing: border-box;
+
+}
+
+
+body {
+    margin: 0;
+}
+
+.parent { 
+    background-color: #d3d3d3;
+    padding: 50px;
+    /* by using width we take responsiveness away  */
+    /* width: 900px; */ 
+    /* the default with on a block level element, such div, p, many elements is they have a width of a hundred percent. And this super usefull */
+    /*  */
+    width: 80%;
+    /* width: 900px; */
+    margin: 0 auto; 
+}
+
+.child {
+    background-color: #38CFD9;
+    height: 250px;
+    /* normally I wouldn't include a height 
+        it's just to get a us started
+    */
+}
